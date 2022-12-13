@@ -370,15 +370,18 @@ img {
   align-items: center;
 
 }
-.button--small{
-  padding:  .75rem 1rem;
+
+.button--small {
+  padding: .75rem 1rem;
 }
-.button--link{
+
+.button--link {
   padding: 0;
   background-color: transparent;
   color: var(--first-color);
 }
-.button--link:hover{
+
+.button--link:hover {
   background-color: transparent;
   color: var(--first-color-alt);
 
@@ -448,7 +451,7 @@ img {
   color: var(--first-color);
 }
 
-.skills__icon{
+.skills__icon {
   margin-right: var(--mb-0-75);
 
 }
@@ -517,6 +520,7 @@ img {
 .skills__php {
   width: 80%;
 }
+
 .skills__react {
   width: 85%;
 }
@@ -630,10 +634,11 @@ img {
 
 }
 
-.qualification [data-content]{
+.qualification [data-content] {
   display: none;
-}    
-.qualification__active [data-content]{
+}
+
+.qualification__active[data-content] {
   display: block;
 
 }
@@ -648,41 +653,49 @@ img {
 
 
 /*==================== SERVICES ====================*/
-.services__container{
-gap: 1.5rem;
-grid-template-columns: repeat(2,1fr);
+.services__container {
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
 
 }
-.services__content{
+
+.services__content {
   position: relative;
   background-color: var(--container-color);
-  padding: 3.5rem .5rem 1.25rem 1.5rem  ;
+  padding: 3.5rem .5rem 1.25rem 1.5rem;
   border-radius: .25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
   transition: .3s;
 }
-.services__content:hover{
+
+.services__content:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
 }
-.services__icon{ 
+
+.services__icon {
   display: block;
-  font-size:  1.5rem;
+  font-size: 1.5rem;
   color: var(--first-color);
   margin-bottom: var(--mb-1);
 }
-.services__title{
-font-size: var(--h3-font-size);
-margin-bottom: var(--mb-1);
-font-weight: var(--font-medium);
+
+.services__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+  font-weight: var(--font-medium);
 }
-.services__button{
+
+.services__button {
   cursor: pointer;
   font-size: var(--small-font-size);
 }
-.services__button:hover .button__icon{
+
+.services__button:hover .button__icon {
   transform: translateX(.25rem);
 }
-.services__modal{
+
+
+.services__modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -695,31 +708,35 @@ font-weight: var(--font-medium);
   justify-content: center;
   padding: 0 1rem;
   z-index: var(--z-modal);
-  /*opacity:0;*/
-  /*visibility:hidden;*/ 
-  transition: .3s ;  
+  opacity:0;
+  visibility:hidden;
+  transition: .3s;
 
 }
 
-.services__modal-content{
+.services__modal-content {
   position: relative;
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: .5rem;
 }
-.services__modal-services{
+
+.services__modal-services {
   row-gap: 1rem;
 
 }
-.services__modal-service{
+
+.services__modal-service {
   display: flex;
 }
-.services__modal-title{
+
+.services__modal-title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1-5);
 
 }
+
 .services__modal-close{
   position: absolute;
   top: 1rem;
@@ -729,27 +746,47 @@ font-weight: var(--font-medium);
   cursor: pointer;
 
 }
-.services__modal-icon{
+
+.services__modal-icon {
   color: var(--first-color);
   margin-right: var(--mb-0-25);
 }
-/* Active Modal 
-.active-modal{
+
+/* Active Modal */
+.active-modal {
   opacity: 1;
   visibility: visible;
 }
-*/
+
 
 
 
 /*==================== CONTACT ME ====================*/
-.contact__container{
+.contact__container {
   row-gap: 3rem;
 
 }
-.contact__information{
+
+.contact__information {
   display: flex;
   margin-bottom: var(--mb-2);
+}
+
+.contact__icon {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-right: var(--mb-0-75);
+}
+
+.contact__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+
+}
+
+.contact__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
 }
 
 
